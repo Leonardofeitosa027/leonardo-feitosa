@@ -1,0 +1,10 @@
+function toggleDropdown(id) {
+    const dropdown = document.getElementById(id);
+    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+  }
+
+  // Função para fechar o dropdown
+  function fecharDropdown(id) {
+    const dropdown = document.getElementById(id);
+    dropdown.style.display = "none";
+  } 
